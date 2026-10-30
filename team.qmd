@@ -5,6 +5,7 @@ page-layout: full
 title-block-style: none
 toc: false
 body-classes: team-page
+anchor-sections: false
 css:
   - styles.css
   - team.css
@@ -17,7 +18,7 @@ We bring together polar research, offshore sailing, and photography to understan
 :::::::::::: team-profiles
 ::::: team-profile
 ::: team-portrait
-![Dr. Simeon Lisovski](images/SimeonLisovski.jpg){.team-photo}
+![Simeon Lisovski](images/SimeonLisovski.jpg){.team-photo}
 :::
 
 ::: team-bio
