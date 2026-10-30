@@ -1,0 +1,30 @@
+---
+title: "Coming soon on ZDF: Mission Pinguin"
+description: "Carsten Behrendt’s documentary follows the expedition aboard Malizia Explorer. Streaming from 1 November; on ZDF television on 8 November 2026."
+date: 2026-10-30
+date-format: "D MMMM YYYY"
+categories: [Film, Expedition]
+image: images/CarstenBerendt_ZDF.jpeg
+image-alt: "ZDF reporter Carsten Behrendt working on the documentary during editing"
+toc: false
+css:
+  - styles.css
+  - news.css
+---
+
+![Carsten Behrendt, who joined the expedition, during the editing of the documentary.](images/CarstenBerendt_ZDF.jpeg){width=780px}
+
+From the Drake Passage to the penguin colonies of the Danger Islands, a new ZDF documentary brings our Antarctic expedition to the screen.
+
+In *Mission Pinguin – Mit dem Segelboot in die Antarktis*, reporter **Carsten Behrendt** follows the scientists and sailors aboard *Malizia Explorer*, with Boris Herrmann. The approximately 43-minute film offers an insight into Antarctic field research, wildlife, and the challenges of reaching these remote islands.
+
+## When to watch
+
+- **Streaming:** from Sunday, **1 November 2026 at 10:00** on ZDF’s streaming platform.
+- **Television:** Sunday, **8 November 2026 at 16:15** on ZDF.
+
+*Times are German local time (CET). The documentary is in German.*
+
+[Documentary details and broadcast information ↗](https://presseportal.zdf.de/pressemappe/mission-pinguin-mit-dem-segelboot-in-die-antarktis){.btn .news-button}
+
+[← All news](news.qmd)

@@ -1,0 +1,25 @@
+---
+title: "Our Antarctic expedition on the cover of GEO"
+description: "GEO features our expedition to the Danger Islands. Explore the cover story online."
+date: 2026-10-30
+date-format: "D MMMM YYYY"
+categories: [Media, Expedition]
+image: images/GeoCover.png.jpeg
+image-alt: "GEO magazine cover featuring the Antarctic expedition"
+toc: false
+css:
+  - styles.css
+  - news.css
+---
+
+![The GEO cover featuring our Antarctic expedition.](images/GeoCover.png.jpeg){.news-cover width=380px}
+
+Our expedition to the Danger Islands has made the cover of **GEO**. We are delighted to see Antarctic wildlife and the research behind its protection reaching a wider audience.
+
+The cover story, *Expedition zu Deutschlands weißem Fleck*, offers a chance to discover more about the expedition.
+
+[Read the story at GEO ↗](https://www.geo.de/natur/expedition-zu-deutschlands-weissem-fleck-37974630.html){.btn .news-button}
+
+*Article in German; a subscription may be required.*
+
+[← All news](news.qmd)

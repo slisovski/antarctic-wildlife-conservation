@@ -1,0 +1,40 @@
+/* Preserve the full magazine cover in the news listing. */
+.quarto-listing .listing-image {
+  object-fit: contain !important;
+  background: #f2f5f6;
+}
+
+.quarto-listing .card {
+  border: 1px solid #dce6eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.quarto-listing .listing-title {
+  color: #163b4a;
+}
+
+.news-cover {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.news-button {
+  background: #ed7d0f;
+  color: white;
+  padding: 11px 20px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.news-button:hover {
+  background: #cf690b;
+  color: white;
+}
+
+.news-button:focus-visible {
+  outline: 3px solid #163b4a;
+  outline-offset: 4px;
+}

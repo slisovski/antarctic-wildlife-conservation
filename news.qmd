@@ -1,0 +1,21 @@
+---
+title: "News"
+page-layout: full
+toc: false
+css:
+  - styles.css
+  - news.css
+listing:
+  contents:
+    - geo-cover-story.qmd
+    - zdf-documentary.qmd
+  type: grid
+  grid-columns: 2
+  sort: "date desc"
+  fields: [image, title, description, date]
+  image-height: 280px
+  sort-ui: false
+  filter-ui: false
+---
+
+Stories from the expedition, media coverage, and updates from Antarctic Wildlife Protection.
