@@ -41,7 +41,7 @@ website:
       </div>
       ```
 
-      [Contact](contact.qmd) · [Privacy](privacy.qmd) · [Legal notice](legal.qmd)
+      [Contact](contact.qmd) · [Legal notice & Privacy](privacy.qmd)
 
 format:
   html:
