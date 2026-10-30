@@ -1,0 +1,181 @@
+/* Team page only. Existing navigation and footer styles remain in styles.css. */
+body.team-page {
+  background: #f6f9fa;
+  color: #163b4a;
+}
+
+.team-page main.content {
+  max-width: 1120px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px clamp(20px, 4vw, 48px) 60px;
+  box-sizing: border-box;
+}
+
+.team-page #title-block-header .title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
+  margin-bottom: 20px;
+  color: #163b4a;
+}
+
+.team-intro {
+  max-width: 780px;
+  color: #526c78;
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.team-profiles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(24px, 3vw, 42px);
+  align-items: start;
+  margin-top: 44px;
+}
+
+.team-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 0;
+  gap: 28px;
+  padding: 0;
+  border: 0;
+}
+
+.team-bio {
+  min-width: 0;
+}
+
+.team-portrait {
+  text-align: center;
+  min-height: 285px;
+}
+
+.team-portrait p,
+.team-portrait figure,
+.team-portrait .quarto-figure {
+  margin: 0;
+}
+
+.team-photo {
+  display: block;
+  box-sizing: border-box;
+  width: 240px;
+  height: 240px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 8px solid white;
+  box-shadow: 0 8px 28px rgba(22, 59, 74, 0.12);
+  margin: 0 auto;
+}
+
+/* Alternative text remains accessible; hide Quarto's automatic visible captions. */
+.team-portrait figcaption {
+  display: none;
+}
+
+.team-portrait-caption {
+  display: block;
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: #526c78;
+}
+
+.team-bio h2 {
+  border: 0;
+  padding: 0;
+  margin: 0 0 10px !important;
+  font-size: clamp(1.5rem, 2.1vw, 1.85rem);
+  letter-spacing: -0.025em;
+  color: #163b4a;
+}
+
+.team-role {
+  display: block;
+  min-height: 2.8rem;
+  color: #a94b00;
+  font-size: 0.84rem;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.035em;
+}
+
+.team-bio p {
+  line-height: 1.8;
+}
+
+.team-profile-link {
+  font-weight: 600;
+  text-underline-offset: 4px;
+}
+
+.team-profile-link:focus-visible {
+  outline: 3px solid #ed7d0f;
+  outline-offset: 5px;
+}
+
+/* Two columns on medium screens; one on phones. */
+@media (max-width: 1000px) {
+  .team-profiles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    row-gap: 52px;
+  }
+}
+
+@media (max-width: 650px) {
+  .team-profiles {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    margin-top: 30px;
+  }
+
+  .team-profile {
+    gap: 24px;
+    padding: 32px 0;
+    border-bottom: 1px solid #dbe5e9;
+  }
+
+  .team-profile:last-child {
+    border-bottom: 0;
+  }
+
+  .team-portrait {
+    min-height: 0;
+  }
+
+  .team-photo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .team-role {
+    min-height: 0;
+  }
+  
+}
+ 
+ .team-bio {
+  text-align: center;
+ }
+
+.team-page 
+.team-intro {
+  text-align: center;
+}
+
+.team-intro {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.team-page #title-block-header {
+  display: none;
+}
