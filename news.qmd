@@ -11,6 +11,7 @@ listing:
     - zdf-documentary.qmd
     - imaging-world-esther-horvath.qmd
     - zingst-danger-islands.qmd
+    - esther-royal-geographical-society.qmd
   type: grid
   grid-columns: 2
   sort: "date desc"
