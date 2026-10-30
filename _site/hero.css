@@ -1,0 +1,98 @@
+/* Homepage only. Keep your existing styles.css for navigation and footer. */
+.mission-home #title-block-header {
+  display: none;
+}
+
+.mission-home #quarto-content {
+  padding-top: 0;
+}
+
+.mission-home main.content {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.mission-hero {
+  box-sizing: border-box;
+  min-height: 70vh;
+  min-height: 75svh;
+  display: flex;
+  align-items: center;
+  padding: clamp(28px, 6vw, 90px);
+  background-color: #335260;
+  background-image: url("images/EstherHorvath/PenguinsBrash_01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mission-panel {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 650px;
+  padding: clamp(24px, 4vw, 48px);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.87);
+  color: #163b4a;
+  box-shadow: 0 10px 40px rgba(8, 32, 45, 0.12);
+}
+
+.mission-eyebrow {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  line-height: 1.6;
+}
+
+.mission-panel h1 {
+  margin: 14px 0 22px;
+  font-size: clamp(2rem, 3.7vw, 3.2rem);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  color: #163b4a;
+}
+
+.mission-panel p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.mission-panel p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  .mission-hero {
+    min-height: 80svh;
+    padding: 32px 18px;
+  }
+}
+
+
+/* Homepage layout: remove Quarto's reserved bottom grid row. */
+
+body.mission-home #quarto-content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  row-gap: 0;
+  grid-template-rows: [content-top] minmax(0, 1fr) [content-bottom] 0 [page-bottom];
+}
+
+body.mission-home main.content {
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+body.mission-home main.content > .column-screen {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body.mission-home .navbar {
+  border-bottom: 0;
+  box-shadow: none;
+}

@@ -1,0 +1,49 @@
+project:
+  type: website
+
+website:
+  title: "Antarctic Wildlife Protection"
+  search: false
+
+  navbar:
+    title: false
+    logo: images/Logo_250.png
+    logo-alt: "Antarctic Wildlife Protection"
+    logo-href: index.qmd
+    background: white
+    foreground: "#163b4a"
+    right:
+      - text: "Our Mission"
+        href: index.qmd
+      - text: "Resarch"
+        href: index.qmd
+      - text: "Education"
+        href: index.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "The Team"
+        href: team.qmd
+      - text: "Become a Partner"
+        href: become-a-partner.qmd
+
+  page-footer:
+    center: |
+      ```{=html}
+      <div class="partner-footer">
+        <p>Partners:</p>
+        <div class="partner-logos">
+          <img src="images/Malizia.svg" alt="Malizia">
+          <img src="images/ARaceWeMustWin.png" alt="A Race We Must Win">
+          <img src="images/AWI.webp" alt="AWI">
+          <img src="images/MyOceanChallange.png" alt="My Ocean Challenge">
+        </div>
+      </div>
+      ```
+
+      [Contact](contact.qmd) · [Privacy](privacy.qmd) · [Legal notice](legal.qmd)
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
