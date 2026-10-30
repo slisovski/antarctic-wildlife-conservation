@@ -1,0 +1,30 @@
+/* Contact page only. */
+body.contact-page { color: #163b4a; background: #f6f9fa; }
+.contact-page #title-block-header { display: none; }
+.contact-page main.content { box-sizing: border-box; width: 100%; max-width: 1160px; margin: 0 auto; padding: 40px clamp(20px, 4vw, 48px) 64px; }
+.contact-layout { display: grid; grid-template-columns: .85fr 1.15fr; gap: clamp(32px, 5vw, 72px); align-items: start; }
+.contact-intro { padding-top: 18px; }
+.contact-eyebrow { display: block; color: #a94b00; font-size: .72rem; font-weight: 700; letter-spacing: .12em; line-height: 1.7; }
+.contact-intro h2 { color: #163b4a; border: 0; padding: 0; font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -.03em; margin: 18px 0 24px; }
+.contact-intro p { line-height: 1.8; }
+.contact-panel { min-width: 0; background: white; padding: clamp(24px, 4vw, 40px); border: 1px solid #dce6eb; border-radius: 14px; }
+.project-contact-form { margin: 0; }
+.project-contact-form label { display: block; margin: 22px 0 8px; font-weight: 600; font-size: .95rem; }
+.project-contact-form input, .project-contact-form textarea, .project-contact-form button { font: inherit; box-sizing: border-box; }
+.project-contact-form input:not([type="checkbox"]), .project-contact-form textarea { width: 100%; padding: 11px 13px; border: 1px solid #a7bbc5; background: #fff; color: #163b4a; border-radius: 7px; }
+.project-contact-form textarea { resize: vertical; min-height: 150px; }
+.project-contact-form input:focus-visible, .project-contact-form textarea:focus-visible, .project-contact-form button:focus-visible, .project-contact-form a:focus-visible { outline: 3px solid #217b91; outline-offset: 3px; }
+.contact-optional { font-weight: 400; color: #526c78; }
+.project-contact-form .contact-consent { display: flex; align-items: flex-start; gap: 10px; font-weight: 400; font-size: .85rem; line-height: 1.6; }
+.contact-consent input { flex: 0 0 auto; width: 18px; height: 18px; margin-top: 4px; accent-color: #163b4a; }
+.project-contact-form .contact-honeypot { display: none; }
+.project-contact-form button { background: #ed7d0f; color: white; border: 0; border-radius: 8px; padding: 12px 24px; margin-top: 18px; font-weight: 600; cursor: pointer; }
+.project-contact-form button:hover { background: #cf690b; }
+.contact-required-note, .contact-service-note { font-size: .8rem; color: #526c78; line-height: 1.6; }
+.contact-required-note { margin: 0; }
+.contact-service-note { margin: 18px 0 0; }
+@media (max-width: 760px) {
+ .contact-layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+ .contact-page main.content { padding-top: 16px; }
+ .contact-intro { padding-top: 0; }
+}

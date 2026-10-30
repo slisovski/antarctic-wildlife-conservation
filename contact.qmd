@@ -1,7 +1,58 @@
 ---
 title: "Contact"
+pagetitle: "Contact | Antarctic Wildlife Protection"
+page-layout: full
+toc: false
+anchor-sections: false
+body-classes: contact-page
+css:
+  - styles.css
+  - contact.css
 ---
 
-Interested in Antarctic Wildlife Protection or becoming a partner?
+:::: {.contact-layout}
+::: {.contact-intro}
+[LET’S START A CONVERSATION]{.contact-eyebrow}
 
-Contact details will be added here.
+## Get in touch
+
+Interested in our research, becoming a partner, or bringing Antarctic science to a wider audience? We would be pleased to hear from you.
+
+Please tell us a little about yourself and what you have in mind.
+
+We will get back to you using the email address you provide.
+:::
+
+::: {.contact-panel}
+```{=html}
+<form action="https://form.taxi/s/oixkgqds" class="project-contact-form" method="POST" accept-charset="utf-8">
+  <p class="contact-required-note">Fields marked * are required.</p>
+
+  <label for="contact-name">Name *</label>
+  <input type="text" name="Name" id="contact-name" autocomplete="name" maxlength="150" required>
+
+  <label for="contact-email">Email address *</label>
+  <input type="email" name="Email" id="contact-email" autocomplete="email" maxlength="254" required>
+
+  <label for="contact-organisation">Organisation <span class="contact-optional">(optional)</span></label>
+  <input type="text" name="Organisation" id="contact-organisation" autocomplete="organization" maxlength="200">
+
+  <label for="contact-message">Your message *</label>
+  <textarea rows="7" name="Message" id="contact-message" maxlength="10000" required></textarea>
+
+  <label class="contact-consent" for="contact-consent">
+    <input type="checkbox" name="Data processing confirmed" id="contact-consent" value="Yes" required>
+    <span>I agree to the processing of my entries to respond to my enquiry. See our <a href="privacy.html">Privacy information</a>. *</span>
+  </label>
+
+  <div class="contact-honeypot" aria-hidden="true">
+    <label for="contact-website">Leave this field empty</label>
+    <input type="text" name="_gotcha" id="contact-website" value="" tabindex="-1" autocomplete="off">
+  </div>
+
+  <button type="submit">Send enquiry</button>
+  <p class="contact-service-note">Messages are submitted through Form.taxi. After sending, you will see a submission confirmation.</p>
+</form>
+```
+:::
+::::

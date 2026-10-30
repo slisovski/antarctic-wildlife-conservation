@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contact – Antarctic Wildlife Protection</title>
+<title>Contact | Antarctic Wildlife Protection – Antarctic Wildlife Protection</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,7 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -60,9 +59,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="contact.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed contact-page quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,12 +111,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -137,21 +137,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Interested in Antarctic Wildlife Protection or becoming a partner?</p>
-<p>Contact details will be added here.</p>
+<div class="contact-layout">
+<div class="contact-intro">
+<p><span class="contact-eyebrow">LET’S START A CONVERSATION</span></p>
+<section id="get-in-touch" class="level2">
+<h2 data-anchor-id="get-in-touch">Get in touch</h2>
+<p>Interested in our research, becoming a partner, or bringing Antarctic science to a wider audience? We would be pleased to hear from you.</p>
+<p>Please tell us a little about yourself and what you have in mind.</p>
+<p>We will get back to you using the email address you provide.</p>
+</section>
+</div>
+<div class="contact-panel">
+<form action="https://form.taxi/s/oixkgqds" class="project-contact-form" method="POST" accept-charset="utf-8">
+  <p class="contact-required-note">Fields marked * are required.</p>
+
+  <label for="contact-name">Name *</label>
+  <input type="text" name="Name" id="contact-name" autocomplete="name" maxlength="150" required="">
+
+  <label for="contact-email">Email address *</label>
+  <input type="email" name="Email" id="contact-email" autocomplete="email" maxlength="254" required="">
+
+  <label for="contact-organisation">Organisation <span class="contact-optional">(optional)</span></label>
+  <input type="text" name="Organisation" id="contact-organisation" autocomplete="organization" maxlength="200">
+
+  <label for="contact-message">Your message *</label>
+  <textarea rows="7" name="Message" id="contact-message" maxlength="10000" required=""></textarea>
+
+  <label class="contact-consent" for="contact-consent">
+    <input type="checkbox" name="Data processing confirmed" id="contact-consent" value="Yes" required="">
+    <span>I agree to the processing of my entries to respond to my enquiry. See our <a href="privacy.html">Privacy information</a>. *</span>
+  </label>
+
+  <div class="contact-honeypot" aria-hidden="true">
+    <label for="contact-website">Leave this field empty</label>
+    <input type="text" name="_gotcha" id="contact-website" value="" tabindex="-1" autocomplete="off">
+  </div>
+
+  <button type="submit">Send enquiry</button>
+  <p class="contact-service-note">Messages are submitted through Form.taxi. After sending, you will see a submission confirmation.</p>
+</form>
+</div>
+</div>
 
 
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
