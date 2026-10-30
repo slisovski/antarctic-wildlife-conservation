@@ -19,7 +19,7 @@ website:
       - text: "Resarch"
         href: index.qmd
       - text: "Education"
-        href: index.qmd
+        href: education.qmd
       - text: "News"
         href: news.qmd
       - text: "The Team"
