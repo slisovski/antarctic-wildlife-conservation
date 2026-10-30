@@ -49,7 +49,7 @@ Esther is a documentary and science photographer whose work brings polar researc
 
 ::::: team-profile
 ::: team-portrait
-![Boris Herrmann, representing Team Malizia](images/BorisHerrmann.png){.team-photo} [Boris Herrmann · Team Malizia]{.team-portrait-caption}
+![Boris Herrmann, representing Team Malizia](images/BorisHerrmann.png){.team-photo} [Boris Herrmann]{.team-portrait-caption}
 :::
 
 ::: team-bio
