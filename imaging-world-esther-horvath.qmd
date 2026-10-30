@@ -1,0 +1,32 @@
+---
+title: "Behind the scenes of polar science with Esther Horvath"
+description: "At Imaging World, Esther shares the stories behind her photography—from polar night and sea ice expeditions to the Danger Islands."
+date: 2026-10-30
+date-format: "D MMMM YYYY"
+categories: [Events, Photography]
+image: images/EstherNatGeo01.png
+image-alt: "Esther Horvath’s polar photography presentation at Imaging World"
+toc: false
+anchor-sections: false
+css:
+  - styles.css
+  - news.css
+---
+
+![](images/EstherNatGeo01.png){fig-alt="Photograph accompanying Esther Horvath’s Imaging World presentation." width=900px}
+
+## A journey into the world behind the photographs
+
+In December 2025, **Esther Horvath** joined professional sailor **Boris Herrmann** aboard *Malizia Explorer* for the Danger Islands expedition in Antarctica. The journey became the cover story of **GEO’s August issue**.
+
+In her talks on the main stage and Nikon stage at **Imaging World**, Esther takes audiences behind the scenes of that mission—and into the wider world of polar research.
+
+From the Arctic polar night and expeditions across sea ice to the penguin colonies of the Danger Islands, she shares how scientists work in remote environments and how she documents their research through photography. Alongside the images are the people, challenges, and moments that rarely make it into a finished story.
+
+Her perspective offers a close look at modern polar science and a connection to places whose changes shape our shared future.
+
+![](images/EstherNatGeo02.png){fig-alt="A second photograph accompanying Esther Horvath’s Imaging World presentation." width=900px}
+
+[Visit Esther’s website ↗](https://www.estherhorvath.com/){.team-profile-link}
+
+[← All news](news.qmd)
