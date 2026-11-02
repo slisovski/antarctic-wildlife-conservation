@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Antarctic Wildlife Conservation"
+  favicon: images/Logo_100.png
   search: false
 
   navbar:
