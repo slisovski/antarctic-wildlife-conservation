@@ -22,6 +22,8 @@ website:
         href: education.qmd
       - text: "News"
         href: news.qmd
+      - text: "The Vessel"
+        href: vessel.qmd
       - text: "The Team"
         href: team.qmd
       - text: "Become a Partner"
