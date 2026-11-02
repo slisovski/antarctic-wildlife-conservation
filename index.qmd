@@ -1,6 +1,6 @@
 ---
 title: "Our Mission"
-pagetitle: "Antarctic Wildlife Protection — Our Mission"
+pagetitle: "Antarctic Wildlife Conservation — Our Mission"
 title-block-banner: false
 page-layout: full
 toc: false
