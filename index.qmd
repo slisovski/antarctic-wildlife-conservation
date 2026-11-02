@@ -13,7 +13,7 @@ css:
 ::::: column-screen
 :::: mission-hero
 ::: mission-panel
-[ANTARCTIC WILDLIFE PROTECTION]{.mission-eyebrow}
+[ANTARCTIC WILDLIFE CONSERVATION]{.mission-eyebrow}
 
 # Science under sail. Wildlife conservation through knowledge.
 

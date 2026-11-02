@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Antarctic Wildlife Protection"
+  title: "Antarctic Wildlife Conservation"
   search: false
 
   navbar:
     title: false
     logo: images/Logo_250.png
-    logo-alt: "Antarctic Wildlife Protection"
+    logo-alt: "Antarctic Wildlife Conservation"
     logo-href: index.qmd
     background: white
     foreground: "#163b4a"
