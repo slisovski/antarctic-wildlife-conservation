@@ -15,7 +15,7 @@ css:
 ::: mission-panel
 [ANTARCTIC WILDLIFE PROTECTION]{.mission-eyebrow}
 
-# Science under sail. Protection through knowledge.
+# Science under sail. Wildlife conservation through knowledge.
 
 Our mission is to build the scientific foundation for protecting Antarctica’s most important wildlife habitats.
 
