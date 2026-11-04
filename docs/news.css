@@ -11,7 +11,7 @@
 }
 
 .quarto-listing .listing-title {
-  color: #163b4a;
+  color: #26384a;
 }
 
 .news-cover {
@@ -35,6 +35,6 @@
 }
 
 .news-button:focus-visible {
-  outline: 3px solid #163b4a;
+  outline: 3px solid #26384a;
   outline-offset: 4px;
 }

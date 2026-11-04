@@ -1,10 +1,10 @@
-body { color: #163b4a; background-color: #fafcfd; }
+body { color: #26384a; background-color: #fafcfd; }
 .navbar { border-bottom: 1px solid #dce6eb; padding-top: 0.8rem; padding-bottom: 0.8rem; }
 .navbar-logo { max-height: 76px; width: auto; }
 .navbar-nav { gap: 0.6rem; }
 .navbar .nav-link { font-weight: 500; }
 #quarto-content { padding-top: 2rem; }
-h1, h2, h3 { color: #123c4d; }
+h1, h2, h3 { color: #10132f; }
 a { color: #217b91; }
 
 
@@ -102,3 +102,13 @@ a { color: #217b91; }
   order: -1;
   margin: 0;
 }
+/* Shared palette: navy text, glacier surfaces, orange highlights. */
+:root {
+  --awc-heading: #10132f;
+  --awc-text: #26384a;
+  --awc-muted: #526579;
+  --awc-accent: #ed7d0f;
+  --awc-glacier: #edf3f5;
+}
+body { color: var(--awc-text); }
+.navbar .nav-link { color: var(--awc-heading); }

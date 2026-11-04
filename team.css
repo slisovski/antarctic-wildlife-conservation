@@ -1,7 +1,7 @@
 /* Team page only. Existing navigation and footer styles remain in styles.css. */
 body.team-page {
   background: #f6f9fa;
-  color: #163b4a;
+  color: #26384a;
 }
 
 .team-page main.content {
@@ -18,12 +18,12 @@ body.team-page {
   line-height: 1.1;
   letter-spacing: -0.035em;
   margin-bottom: 20px;
-  color: #163b4a;
+  color: #26384a;
 }
 
 .team-intro {
   max-width: 780px;
-  color: #526c78;
+  color: #526579;
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   line-height: 1.7;
   margin-bottom: 12px;
@@ -86,7 +86,7 @@ body.team-page {
   display: block;
   margin-top: 16px;
   font-size: 0.8rem;
-  color: #526c78;
+  color: #526579;
 }
 
 .team-bio h2 {
@@ -95,13 +95,13 @@ body.team-page {
   margin: 0 0 10px !important;
   font-size: clamp(1.5rem, 2.1vw, 1.85rem);
   letter-spacing: -0.025em;
-  color: #163b4a;
+  color: #10132f;
 }
 
 .team-role {
   display: block;
   min-height: 2.8rem;
-  color: #a94b00;
+  color: #10132f;
   font-size: 0.84rem;
   font-weight: 700;
   line-height: 1.6;

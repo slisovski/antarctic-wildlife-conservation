@@ -1,8 +1,8 @@
 .thank-you-page #title-block-header { display: none; }
-.thanks-panel { margin: 40px auto 60px; max-width: 720px; padding: clamp(28px, 5vw, 54px); background: #edf3f5; border: 1px solid #d8e3e8; border-radius: 14px; text-align: center; color: #163b4a; }
-.thanks-eyebrow { display: block; color: #a94b00; font-size: .75rem; font-weight: 700; letter-spacing: .13em; }
-.thanks-panel h1 { color: #163b4a; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; letter-spacing: -.025em; margin: 20px 0 24px; }
+.thanks-panel { margin: 40px auto 60px; max-width: 720px; padding: clamp(28px, 5vw, 54px); background: #edf3f5; border: 1px solid #d8e3e8; border-radius: 14px; text-align: center; color: #26384a; }
+.thanks-eyebrow { display: block; color: #10132f; font-size: .75rem; font-weight: 700; letter-spacing: .13em; }
+.thanks-panel h1 { color: #10132f; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.15; letter-spacing: -.025em; margin: 20px 0 24px; }
 .thanks-panel p { line-height: 1.8; }
 .thanks-panel .thanks-button { background: #ed7d0f; color: #fff; border: 0; border-radius: 8px; padding: 12px 22px; font-weight: 600; margin-top: 16px; white-space: normal; }
 .thanks-panel .thanks-button:hover { background: #cf690b; color: #fff; }
-.thanks-panel a:focus-visible { outline: 3px solid #163b4a; outline-offset: 4px; }
+.thanks-panel a:focus-visible { outline: 3px solid #26384a; outline-offset: 4px; }

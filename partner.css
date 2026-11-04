@@ -1,27 +1,27 @@
 /* Scoped to the partnership page; preserves the shared menu and footer. */
-body.partner-page { background: #f8fafb; color: #163b4a; }
+body.partner-page { background: #f8fafb; color: #26384a; }
 .partner-page #title-block-header { display: none; }
 .partner-page main.content { box-sizing: border-box; width: 100%; max-width: 1260px; margin: 0 auto; padding: 28px clamp(20px, 4vw, 48px) 48px; }
-.partner-page h1, .partner-page h2, .partner-page h3 { color: #163b4a; border: 0; padding-bottom: 0; }
+.partner-page h1, .partner-page h2, .partner-page h3 { color: #10132f; border: 0; padding-bottom: 0; }
 .partner-opening { display: grid; grid-template-columns: 1.05fr 1fr; align-items: center; gap: clamp(28px, 4vw, 56px); }
 .partner-opening-image { min-width: 0; }
 .partner-page figure, .partner-page .quarto-figure { margin: 0; }
 .partner-page figcaption { display: none; }
 .partner-opening-image img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .partner-opening-image p, .partner-research-image p { margin: 0; }
-.partner-eyebrow { display: block; color: #a94b00; font-size: .72rem; letter-spacing: .12em; font-weight: 700; line-height: 1.7; }
+.partner-eyebrow { display: block; color: #10132f; font-size: .72rem; letter-spacing: .12em; font-weight: 700; line-height: 1.7; }
 .partner-intro h1 { font-size: clamp(2rem, 3.4vw, 3.2rem); line-height: 1.12; letter-spacing: -.035em; margin: 14px 0 22px; }
 .partner-page p { line-height: 1.75; }
 .partner-page .partner-button { display: inline-block; background: #ed7d0f; color: #fff; border: 0; border-radius: 8px; padding: 12px 22px; margin-top: 10px; font-weight: 600; text-decoration: none; }
 .partner-page .partner-button:hover { background: #cf690b; color: #fff; }
-.partner-page .partner-button:focus-visible { outline: 3px solid #163b4a; outline-offset: 4px; }
+.partner-page .partner-button:focus-visible { outline: 3px solid #26384a; outline-offset: 4px; }
 .partner-ways { padding: 68px 0 50px; }
 .partner-page h2 { font-size: clamp(1.6rem, 2.8vw, 2.25rem); line-height: 1.2; letter-spacing: -.025em; margin: 0 0 18px; }
-.partner-ways > p { max-width: 730px; color: #526c78; }
+.partner-ways > p { max-width: 730px; color: #526579; }
 .partner-support-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 40px; margin-top: 28px; }
 .partner-support-item { padding: 24px 0 12px; border-top: 2px solid #e6b17c; }
 .partner-support-item h3 { margin: 0 0 12px; font-size: 1.2rem; }
-.partner-support-item p { color: #526c78; }
+.partner-support-item p { color: #526579; }
 .partner-research { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(28px, 4vw, 56px); padding: 24px 0 60px; }
 .partner-research-image img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .partner-research-copy h2 { margin-top: 16px; }

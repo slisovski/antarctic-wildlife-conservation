@@ -1,24 +1,24 @@
 /* Education page only; shared menu and footer retain their existing styles. */
-body.education-page { background: #f8fafb; color: #163b4a; }
+body.education-page { background: #f8fafb; color: #26384a; }
 .education-page #title-block-header { display: none; }
 .education-page main.content { box-sizing: border-box; width: 100%; max-width: 1240px; margin: 0 auto; padding: 32px clamp(20px, 4vw, 48px) 56px; }
-.education-page h1, .education-page h2, .education-page h3 { color: #163b4a; border: 0; padding: 0; }
+.education-page h1, .education-page h2, .education-page h3 { color: #10132f; border: 0; padding: 0; }
 .education-page p { line-height: 1.8; }
-.education-eyebrow { display: block; color: #a94b00; font-size: .72rem; font-weight: 700; line-height: 1.7; letter-spacing: .1em; }
+.education-eyebrow { display: block; color: #10132f; font-size: .72rem; font-weight: 700; line-height: 1.7; letter-spacing: .1em; }
 .education-opening { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(28px, 4vw, 52px); }
 .education-opening h1 { font-size: clamp(2rem, 3.6vw, 3.2rem); letter-spacing: -.035em; line-height: 1.12; margin: 18px 0 24px; }
 .education-opening-photo, .education-story-photo { min-width: 0; }
 .education-page figure, .education-page .quarto-figure { margin: 0; }
 .education-page figure img { display: block; width: 100%; height: auto; border-radius: 12px; }
-.education-page figcaption { color: #526c78; font-size: .75rem; line-height: 1.6; margin-top: 10px; }
+.education-page figcaption { color: #526579; font-size: .75rem; line-height: 1.6; margin-top: 10px; }
 .education-collaboration { max-width: 850px; padding: 64px 0 36px; }
 .education-page h2 { font-size: clamp(1.65rem, 2.7vw, 2.2rem); letter-spacing: -.025em; line-height: 1.2; margin: 16px 0 22px; }
 .education-activities { padding-bottom: 42px; }
 .education-activity-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; margin: 30px 0 24px; }
 .education-activity { border-top: 2px solid #e6b17c; padding-top: 20px; }
-.education-number { font: italic 1.65rem Georgia, serif; color: #a94b00; }
+.education-number { font: italic 1.65rem Georgia, serif; color: #10132f; }
 .education-activity h3 { font-size: 1.2rem; margin: 16px 0 12px; }
-.education-activity p { color: #526c78; }
+.education-activity p { color: #526579; }
 .education-story { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(28px, 4vw, 52px); padding: 28px 0 60px; }
 .education-text-link { font-weight: 600; text-underline-offset: 4px; }
 .education-contact { text-align: center; background: #eaf1f4; border-radius: 14px; padding: clamp(28px, 5vw, 52px); }
