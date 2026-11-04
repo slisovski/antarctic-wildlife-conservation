@@ -5,16 +5,20 @@ page-layout: full
 toc: false
 anchor-sections: false
 body-classes: partner-page
+resources:
+  - images/partner-support.svg
+  - images/partner-support-mobile.svg
 css:
   - styles.css
   - partner.css
 ---
 
-::::::: {.partner-opening}
-:::::: {.partner-opening-image}
-![Adélie penguins on the ice with Malizia Explorer anchored nearby.](images/MaliziaPenguins.jpg){fig-alt="Adélie penguins on the ice with Malizia Explorer anchored nearby."}
-::::::
-:::::: {.partner-intro}
+::::: partner-opening
+::: partner-opening-image
+![Adélie penguins on the ice with Malizia Explorer anchored nearby.](images/BecomeMember_Hexagon01.png){fig-alt="Adélie penguins on the ice with Malizia Explorer anchored nearby."}
+:::
+
+::: partner-intro
 [SCIENCE · SAILING · SHARED PURPOSE]{.partner-eyebrow}
 
 # Help us understand and protect Antarctic wildlife.
@@ -24,43 +28,28 @@ Partnerships help make our research possible—from reaching remote Antarctic ha
 We welcome conversations with individuals, foundations, companies, and organisations who would like to contribute. Support can take many forms: funding, equipment, practical expertise, or helping our findings reach new audiences.
 
 [Start a conversation](contact.qmd){.btn .partner-button}
-::::::
-:::::::
+:::
+:::::
 
-::::::: {.partner-ways}
+::: partner-ways
 ## Different ways to make a difference
 
 There is no single way to become involved. Together, we can explore where your interests and our research needs meet.
 
-:::::: {.partner-support-grid}
-::::: {.partner-support-item}
-### Expeditions & fieldwork
+```{=html}
+<picture class="partner-support-graphic">
+  <source media="(max-width: 650px)" srcset="images/partner-support-mobile.svg">
+  <img src="images/partner-support.svg" alt="Three ways to contribute: Expeditions — funding and logistics; Research Equipment — tracking devices and field instruments; Education — learning materials and outreach." width="1200" height="440" loading="lazy">
+</picture>
+```
+:::
 
-Help make research voyages possible through support for transport, expedition logistics, and the time needed to work in remote Antarctic habitats.
-:::::
-::::: {.partner-support-item}
-### Scientific equipment & research
-
-Contribute towards tracking devices, field instruments, laboratory analyses, or tools that help us understand wildlife and its habitats.
-:::::
-::::: {.partner-support-item}
-### Knowledge & practical expertise
-
-Bring skills, services, or technical support—from equipment development and field logistics to data analysis and interpretation.
-:::::
-::::: {.partner-support-item}
-### Education & communication
-
-Help bring Antarctic research into classrooms and share its discoveries through photography, films, exhibitions, and public engagement.
-:::::
-::::::
-:::::::
-
-::::::: {.partner-research}
-:::::: {.partner-research-image}
+::::: partner-research
+::: partner-research-image
 ![Tracking devices prepared for Antarctic seabird research.](images/tags.jpg){fig-alt="Tracking devices prepared for Antarctic seabird research."}
-::::::
-:::::: {.partner-research-copy}
+:::
+
+::: partner-research-copy
 [FROM SUPPORT TO SCIENCE]{.partner-eyebrow}
 
 ## Small devices. A wider understanding.
@@ -68,15 +57,13 @@ Help bring Antarctic research into classrooms and share its discoveries through 
 Tracking devices help reveal where penguins and other seabirds find food—and which marine habitats they depend on.
 
 Supporting equipment is one practical way to contribute to this work. Combined with repeated field observations and colony monitoring, these measurements help build the evidence needed to guide habitat protection.
-::::::
-:::::::
+:::
+:::::
 
-::::::: {.partner-contact}
+::: partner-contact
 [LET’S EXPLORE THE POSSIBILITIES]{.partner-eyebrow}
-
-## A conversation is a good place to start.
 
 Whether you have a specific idea or would simply like to learn more, we would be pleased to hear from you. Tell us a little about yourself, your interests, and how you might like to get involved.
 
 [Get in touch](contact.qmd){.btn .partner-button}
-:::::::
+:::

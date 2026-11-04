@@ -39,3 +39,17 @@ body.partner-page { background: #f8fafb; color: #163b4a; }
  .partner-support-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
  .partner-page main.content { padding-top: 12px; }
 }
+
+/* Three support opportunities: centred introduction and responsive graphic. */
+.partner-ways { text-align: center; }
+.partner-ways > p { margin-left: auto; margin-right: auto; }
+.partner-support-graphic { display: block; width: 100%; margin: 24px auto 0; }
+.partner-support-graphic img { display: block; width: 100%; height: auto; }
+@media (max-width: 650px) {
+  .partner-support-graphic { max-width: 380px; }
+}
+
+.partner-support-graphic {
+  margin-top: -20px;
+  margin-bottom: -50px;
+}

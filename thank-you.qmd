@@ -1,0 +1,22 @@
+---
+title: "Thank you"
+pagetitle: "Thank you | Antarctic Wildlife Conservation"
+toc: false
+anchor-sections: false
+body-classes: thank-you-page
+css:
+  - styles.css
+  - thank-you.css
+---
+
+::: {.thanks-panel}
+[MESSAGE SENT]{.thanks-eyebrow}
+
+# Thank you for getting in touch.
+
+Your enquiry has been submitted successfully. We will respond using the email address you provided as soon as we can.
+
+We look forward to learning more about your ideas and interest in Antarctic Wildlife Conservation.
+
+[Back to Our Mission](index.qmd){.btn .thanks-button}
+:::

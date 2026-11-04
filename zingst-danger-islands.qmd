@@ -4,7 +4,7 @@ description: "Antarctic science through Esther’s lens: the exhibition is on vi
 date: 2026-10-30
 date-format: "D MMMM YYYY"
 categories: [Exhibition, Photography]
-image: images/Zingst.png
+image: images/Zingst.jpeg
 image-alt: "Esther Horvath’s Danger Islands exhibition in Zingst"
 toc: false
 anchor-sections: false
@@ -13,7 +13,7 @@ css:
   - news.css
 ---
 
-![](images/Zingst.png){fig-alt="Photograph accompanying the Danger Islands exhibition in Zingst." width=900px}
+![](images/Zingst.jpeg){fig-alt="Photograph accompanying the Danger Islands exhibition in Zingst." width=900px}
 
 **Esther Horvath’s exhibition *Danger Islands*** brings Antarctic field research to Germany’s Baltic coast. Opened on **29 May 2026** as part of the **horizonte zingst environmental photography festival**, it is on view at **Schlösschen Sundische Wiese in Zingst until 7 November 2026**.
 

@@ -31,3 +31,14 @@ body.education-page { background: #f8fafb; color: #163b4a; }
  .education-activity-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; }
  .education-collaboration { padding-top: 42px; }
 }
+
+/* More space before the activities section */
+.education-activities {
+  margin-top: 80px;
+}
+
+/* Centre this section’s heading */
+.education-activities > h2 {
+  text-align: center;
+  margin-bottom: 36px;
+}

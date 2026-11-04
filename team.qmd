@@ -17,8 +17,9 @@ We bring together polar research, offshore sailing, and photography to understan
 
 :::::::::::: team-profiles
 ::::: team-profile
-::: team-portrait
-![Simeon Lisovski](images/SimeonLisovski.jpg){.team-photo}
+
+::: {.team-photo-frame}
+![](images/SimeonLisovski.jpg){.team-photo fig-alt="Simeon Lisovski"}
 :::
 
 ::: team-bio
@@ -33,8 +34,8 @@ Simeon is a researcher at the Alfred Wegener Institute and the Leibnitz Insitute
 :::::
 
 ::::: team-profile
-::: team-portrait
-![Esther Horvath](images/EstherHorvath.png){.team-photo}
+::: {.team-photo-frame}
+![](images/EstherHorvath.png){.team-photo fig-alt="Esther Horvath"}:::
 :::
 
 ::: team-bio
@@ -49,8 +50,8 @@ Esther is a documentary and science photographer whose work brings polar researc
 :::::
 
 ::::: team-profile
-::: team-portrait
-![Boris Herrmann, representing Team Malizia](images/BorisHerrmann.png){.team-photo} [Boris Herrmann]{.team-portrait-caption}
+::: {.team-photo-frame}
+![](images/BorisHerrmann.png){.team-photo fig-alt="Boris Herrmann"}
 :::
 
 ::: team-bio

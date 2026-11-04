@@ -179,3 +179,52 @@ body.team-page {
 body.team-page #title-block-header {
   display: none;
 }
+
+.team-photo {
+  border: 0;
+  border-radius: 0;
+  clip-path: polygon(
+    50% 0%,
+    93.3% 25%,
+    93.3% 75%,
+    50% 100%,
+    6.7% 75%,
+    6.7% 25%
+  );
+  object-fit: cover;
+}
+
+.team-photo-frame {
+  --hexagon: polygon(
+    50% 0%, 93.3% 25%, 93.3% 75%,
+    50% 100%, 6.7% 75%, 6.7% 25%
+  );
+
+  position: relative;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  background: white;
+  clip-path: var(--hexagon);
+}
+
+.team-photo-frame .team-photo {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  max-width: none;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  clip-path: var(--hexagon);
+  object-fit: cover;
+}
+
+@media (max-width: 650px) {
+  .team-photo-frame {
+    width: 200px;
+    height: 200px;
+  }
+}

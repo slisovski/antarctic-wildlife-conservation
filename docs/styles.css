@@ -67,3 +67,38 @@ a { color: #217b91; }
   width: 100%;
   gap: 20px 28px;
 }
+
+
+.nav-footer {
+  padding-top: 0;
+}
+
+.nav-footer-center {
+  margin-top: 0;
+}
+
+.partner-footer {
+  padding: 15px 0;
+}
+
+.partner-footer p {
+  margin-bottom: 10px;
+}
+
+.partner-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.partner-footer .partner-logos {
+  width: auto;
+  flex: 0 1 auto;
+}
+
+.partner-footer > p {
+  order: -1;
+  margin: 0;
+}

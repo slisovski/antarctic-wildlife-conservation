@@ -23,19 +23,10 @@ Together with **My Ocean Challenge**, we want to turn questions like these into 
 [Discover My Ocean Challenge ↗](https://www.team-malizia.com/news/about-my-ocean-challenge){.education-text-link}
 ::::::
 :::::: {.education-opening-photo}
-![Pupils gathered for a live connection with the Antarctic expedition team. Photo: Stefan Junker.](images/education-classroom.png){fig-alt="Pupils gathered in a school auditorium for a live connection with the expedition."}
+![](images/Education_Hexagon.png){fig-alt="Pupils gathered in a school auditorium for a live connection with the expedition."}
 ::::::
 :::::::
 
-::::::: {.education-collaboration}
-[ONE OCEAN. SHARED CURIOSITY.]{.education-eyebrow}
-
-## Learning together with My Ocean Challenge
-
-My Ocean Challenge is Team Malizia’s education programme, connecting sailing with ocean and climate learning. Our collaboration builds on that work, bringing Antarctic wildlife, polar research, and first-hand expedition experience into the conversation.
-
-We are developing ways to contribute additional classroom talks, learning materials, and encounters with the people behind the science. We want these activities to complement My Ocean Challenge and give teachers practical ways to explore Antarctic ecosystems with their pupils.
-:::::::
 
 ::::::: {.education-activities}
 ## What we are working towards
@@ -65,23 +56,6 @@ Photographs and expedition stories that help make remote places tangible and enc
 ::::::
 
 *Activities and new materials are being developed together. Please contact us to discuss interests and availability.*
-:::::::
-
-::::::: {.education-story}
-:::::: {.education-story-photo}
-![Boris Herrmann, Esther Horvath and Dr. Simeon Lisovski aboard Malizia Explorer. Photo: Malizia Explorer.](images/education-onboard.png){fig-alt="Three members of the expedition team together inside Malizia Explorer."}
-::::::
-:::::: {.education-story-copy}
-[ALREADY CONNECTING CLASSROOMS]{.education-eyebrow}
-
-## Classroom in the ice
-
-During the 2025 Antarctic expedition, around **120 pupils in Kiel** joined the team virtually aboard *Malizia Explorer* for an hour. Scientists, sailors, and photographers answered their questions as the vessel travelled through Antarctic waters towards the Danger Islands.
-
-The exchange brought expedition life into the classroom—and pupils’ curiosity directly to the people doing the research. It is a starting point for the educational work we want to continue together.
-
-[Read the story on Team Malizia ↗](https://www.team-malizia.com/news/classroom-in-the-ice){.education-text-link}
-::::::
 :::::::
 
 ::::::: {.education-contact}
