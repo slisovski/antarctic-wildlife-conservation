@@ -17,7 +17,7 @@ website:
     right:
       - text: "Our Mission"
         href: index.qmd
-      - text: "Resarch"
+      - text: "Research"
         href: research.qmd
       - text: "Education"
         href: education.qmd
